@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+    line-height: 1.6;
+    background-color: #18213c;
+}
+.wiki-terraria{
+    font-family: fantasy, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+
+}
+
+.objeto{   
+    font-family: monospace;
+    font-size: 2em;
+    color: rgb(33, 145, 24);
+    text-shadow:rgb(32, 255, 16) 0px 0px 2px;
+
+}
+.texto{
+    font-family: monospace;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    margin-right: 00px;
+    width: 800px;
+
+
+}
+.cuadro{
+
+    text-align: center;
+    border: 2px solid rgba(22, 21, 30, 0.779);
+    padding: 2px;
+    background-color: rgba(42, 61, 118, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 300px;
+
+    .imagen-objeto{
+        margin: auto;
+        display: block;
+    }
+
+
+}
+.imagen-objeto{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-image: url("../images/Starfury.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.nombre-objeto{
+    font-family: monospace;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px;
+}
+.texto-cuadro-del-objeto{
+    font-family: monospace;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px;
+    text-align: center;
+}
